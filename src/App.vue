@@ -3,7 +3,8 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/hello-world">HelloWorld</router-link> |
-      <router-link to="/pointer-tracker">PointerTracker</router-link>
+      <router-link to="/pointer-tracker">PointerTracker</router-link> |
+      <router-link to="/brachio-saurus">BrachioSaurus</router-link>
     </div>
     <router-view />
 </template>

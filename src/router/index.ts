@@ -2,6 +2,7 @@ import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import Home from '../views/Home.vue'
 import HelloWorld from '../components/HelloWorld.vue'
 import PointerTracker from '../components/PointerTracker.vue'
+import BrachioSaurus from '../components/BrachioSaurus.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -26,6 +27,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/pointer-tracker',
     name: 'PointerTracker',
     component: PointerTracker
+  },
+  {
+    path: '/brachio-saurus',
+    name: 'BrachioSaurus',
+    component: BrachioSaurus
   },
 ]
 
